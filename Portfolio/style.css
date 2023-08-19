@@ -263,7 +263,7 @@ h1{
   opacity: 0;
   transition: transform 450ms, opacity 300ms;
 }
-.description-title, .description-subtitle, .description-para{
+.description-title, .description-subtitle, .description-para , .description-link{
     text-align:left;
     background-color:transparent;
 }
@@ -273,6 +273,11 @@ h1{
 }
 .description-para{
     margin: 16px 0;
+}
+.description-link a, i{
+  background-color:transparent;
+  margin-right: 5px;
+  font-size: 20px;
 }
    footer{
     background-color: rgb(36, 41, 41);
